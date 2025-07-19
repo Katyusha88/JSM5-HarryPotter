@@ -1,0 +1,52 @@
+body {
+    /* background-image: url("https://img.freepik.com/free-photo/old-fashioned-eyeglasses-on-book-still-life-reading-generated-by-ai_188544-20947.jpg?w=1380&t=st=1699794688~exp=1699795288~hmac=a2963a9c669b6404de727ed10a7f5d12eb9de8427a12c3db811f22b2d8532626");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: 90vh; */
+    background:linear-gradient(to left, #2d241b, #a36221 )  ;
+}
+#heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Charmonman', cursive;
+}
+#input {
+    display: flex;
+}
+#search {
+    font-size: 24px;
+    flex: 1;
+    font-family: 'Charmonman', cursive;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container {
+    margin: 10px;
+    padding: 20px;
+}
+h4 {
+    font-family: 'Charmonman', cursive;
+    color: whitesmoke;
+    font-size: 26px;
+}
+p {
+    font-family: 'Charmonman', cursive;
+    color: whitesmoke;
+    font-size: 24px;
+}
+img {
+    border: 2px solid whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
