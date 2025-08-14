@@ -50,3 +50,17 @@ a {
     text-decoration: none;
     color: whitesmoke;
 }
+
+
+@media all and (max-width: 320px) {
+img {
+    width: 290px;
+}
+.container {
+    margin: 0px;
+    padding: 5px;
+}
+h4, p {
+    font-size: 22px;
+}
+}
